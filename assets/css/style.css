@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+}
+
+.encabezado {
+    background-image: url(../img/iguana-cabeza.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+h1 {
+    font-size: 36px;
+    color:white;
+    text-align: center;
+    margin: 0px;
+    -webkit-text-stroke: 2px #5D8A32;
+}
+
+.contenido1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.contexto {
+    width: 30%;
+    font-size: 15px;
+    padding: 30px;
+    color: white;
+    background-color: black;
+}
+
+.iguana {
+    padding: 10px;
+    width: 25%;
+}
+
+.caracteristicas {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    font-size: 30px;
+    background-color: rgb(84, 54, 14);
+}
+
+.contenido2 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: rgb(84, 54, 14);
+}
+
+.icons {
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.fotos {
+    padding: 10px;
+    width: 25%;
+}
+
+.pie_pag {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    color: aliceblue;
+    justify-items: center;
+    background-color: rgb(84, 54, 14);
+}
+
+a {
+    padding: 15px;
+    color: aliceblue;
+}
